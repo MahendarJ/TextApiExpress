@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
 let users = [];
+let newTest;
 
 export const getUsers = (req, res) => {
   res.send(users);
